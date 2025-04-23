@@ -8,7 +8,8 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from "./components/BlurBlob";
-import Loader from "./components/Loader"; // Add a loader component
+import Loader from "./components/Loader/Loader";
+
 
 const App = () => {
   const [loading, setLoading] = useState(true);
