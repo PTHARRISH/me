@@ -25,7 +25,7 @@ const About = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={["Python Developer", "Django Backend Developer", "API Engineer"]}
+              text={["Python Developer", "Django Web Developer", "Backend Developer"]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}

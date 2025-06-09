@@ -104,14 +104,15 @@ export const experiences = [
   {
     id: 0,
     img: MinebeaLogo,
-    role: "I Software Junior Design Engineer",
+    role: "I Software Design Junior Engineer",
     company: "Minebea Intec India Pvt Ltd",
-    date: "August 2024 - Present",
-    desc: "Developed and maintained scalable backend services using Python and Django, integrated REST APIs, implemented microservices architecture with Celery for asynchronous tasks, optimized SQL queries, and integrated RBAC for secure user access control in a product-based agile environment.",
+    date: "January 2024 - June 2025",
+    desc: "Developed and maintained scalable backend services using Python and Django. Gained hands-on experience with REST API integration, implemented microservices architecture using Celery for asynchronous tasks, optimized SQL queries, and integrated RBAC for secure user access control in a product-based agile environment.",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
+      "AJAX",
       "Python",
       "Django",
       "Celery",
@@ -124,24 +125,7 @@ export const experiences = [
       "MSSQL",
     ],
   },
-  {
-    id: 1,
-    img: MinebeaLogo,
-    role: "I Software Engineer Intern",
-    company: "Minebea Intec India Pvt Ltd",
-    date: "January 2024 - August 2024",
-    desc: "During my 6-month internship at Minebea Intec, I worked as a Python Developer, contributing to backend development and support tasks. I gained hands-on experience with technologies like Django, REST APIs, and SQL, and assisted in maintaining internal tools and automating manual processes. This opportunity helped me strengthen my problem-solving skills, work in a collaborative environment, and understand real-time project workflows in a product-based setup.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "AJAX",
-      "Python",
-      "Django",
-      "Django Rest Framework",
-      "SQLite",
-    ],
-  },
+  
 ];
 
 export const education = [
