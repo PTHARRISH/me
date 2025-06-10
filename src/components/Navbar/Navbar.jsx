@@ -54,7 +54,7 @@ const Navbar = () => {
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
-    // { id: "work", label: "Projects" },
+    { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
     { id: "contact", label: "Contact" },
   ];
@@ -76,11 +76,11 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-gray-300">
+        <ul className="hidden md:flex space-x-4 text-sm text-gray-300">
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#8245ec] ${
+              className={`cursor-pointer px-1 hover:text-[#8245ec] ${
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
