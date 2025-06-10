@@ -31,6 +31,7 @@ import ajLogo from "./assets/education_logo/anjac-logo.png";
 
 // Project Section Logo's
 import fastapisLogo from "./assets/work_logo/fast_api.png";
+import oldportLogo from "./assets/work_logo/old_port.png";
 import vlLogo from "./assets/work_logo/virtual_learning.png";
 import carbonLogo from "./assets/work_logo/carbon_emission.png";
 import dsaLogo from "./assets/work_logo/python_dsa.png";
@@ -159,8 +160,8 @@ export const projects = [
     image: fastapisLogo,
     tags: ["Fast API", "Python", "Web API", "Learning", "Backend Development"],
     github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+      "https://github.com/PTHARRISH/Fastapi",
+    webapp: "",
   },
   {
     id: 1,
@@ -177,37 +178,49 @@ export const projects = [
       "CSS",
       "JavaScript",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "https://github.com/PTHARRISH/Coursera",
+    webapp: "",
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
+    title: "Python DSA Notes",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+      "Python DSA & Notes – A personal repository where I’m practicing Data Structures and Algorithms using Python. This space includes my solutions to LeetCode problems, Python programming exercises, and tasks focused on interview prep. I’m also jotting down quick notes and exploring some advanced Python concepts along the way. Still a work in progress.",
     image: dsaLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com//Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    tags: ["Python", "Notes", "DSA", "Tasks", "Exercise"],
+    github: "https://github.com/PTHARRISH/Python-Notes",
+    webapp: "",
   },
+
   {
     id: 3,
-    title: "Email Validator NPM Package",
+    title: "Old Portfolio",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: carbonLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      "Old Portfolio – A simple personal portfolio website I created using HTML, CSS, and JavaScript. It features a responsive layout using media queries and includes a basic dark mode toggle for better user experience. This was one of my early projects while learning front-end development.",
+    image: oldportLogo,
+    tags: ["HTML", "CSS", "Media Query", "JavaScript"],
+    github: "https://github.com/PTHARRISH/portfolio",
+    webapp: "https://ptharrish.github.io/portfolio/",
   },
+
   {
     id: 4,
-    title: "Task Reminder Chrome Extension Tool",
+    title: "Linear Approximation Computational Complexity With Multivariant Correlation",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+      "Linear Approximation Computational Complexity With Multivariant Correlation – A personal project focused on estimating carbon emissions for homes and industries using simplified linear models and multivariable correlation techniques. This tool is being built to analyze inputs like energy consumption, fuel sources, and usage patterns to predict emissions efficiently. Currently evolving as I explore ways to balance accuracy with computational efficiency for real-world sustainability applications",
+    image: carbonLogo,
+    tags: ["Python", "Django", "MySQL", "HTML", "CSS", "Javascript", "ML", "Decision Tree"],
+    github: "https://github.com/PTHARRISH/Carbon-emission",
+    webapp: "",
+  },
+  {
+    id: 5,
+    title: "Virtual Learning Platform for Visually Impaired Student",
+    description:
+      "Virtual Learning Platform for Visually Impaired Student – A personal initiative aimed at building an accessible virtual learning environment tailored for visually impaired students. This platform focuses on integrating audio-based navigation, screen reader support, and inclusive content delivery to enhance independent learning. Still in progress as I experiment with tools and technologies to improve usability and accessibility in digital education",
     image: vlLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    tags: ["Python", "Flask","MySQL", "HTML", "CSS", "Javscript", "JQuery"],
+    github: "https://github.com/PTHARRISH/Virtual-Learning-Platform",
+    webapp: "",
   },
 ];
