@@ -36,11 +36,7 @@ import vlLogo from "./assets/work_logo/virtual_learning.png";
 import carbonLogo from "./assets/work_logo/carbon_emission.png";
 import dsaLogo from "./assets/work_logo/python_dsa.png";
 import littlelemonLogo from "./assets/work_logo/little_lemon.png";
-// import npmLogo from "./assets/work_logo/npm.png";
-// import webverLogo from "./assets/work_logo/web_dig.png";
-// import cmLogo from "./assets/work_logo/cm.png";
-// import imagesearchLogo from "./assets/work_logo/image_search.png";
-// import removebgLogo from "./assets/work_logo/remove_bg.png";
+
 
 export const SkillsInfo = [
   {
