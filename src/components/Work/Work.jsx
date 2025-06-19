@@ -78,11 +78,11 @@ const Work = () => {
             </div>
 
             <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
+              <div className="w-[95%] flex justify-center bg-gray-900 px-4">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
-                  className="w-[95%] lg:w-[40%] max-w-xl object-contain rounded-xl shadow-2xl"
+                  className="w-[95%] lg:w-[35%] max-w-xl object-contain rounded-xl shadow-2xl"
                 />
               </div>
               <div className="lg:p-8 p-6">
