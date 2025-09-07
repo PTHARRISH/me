@@ -2,7 +2,7 @@ import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from "react-parallax-tilt";
 import profileImage from "../../assets/PassportPhoto.png";
-import Resume from "../../assets/HarrishPT.pdf";
+import Resume from "../../assets/Harrish PT.pdf";
 
 const About = () => {
   return (
