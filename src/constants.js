@@ -1,6 +1,6 @@
 // Skills Section Logo's
-import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
+import htmlLogo from "./assets/tech_logo/html.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
 // import reactjsLogo from "./assets/tech_logo/reactjs.png";
 // import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
@@ -8,19 +8,19 @@ import javascriptLogo from "./assets/tech_logo/javascript.png";
 import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 // import mongodbLogo from './assets/tech_logo/mongodb.png';
+import celeryLogo from "./assets/tech_logo/celery.png";
+import djangoLogo from "./assets/tech_logo/django.png";
+import fastapiLogo from "./assets/tech_logo/fastapi.png";
+import figmaLogo from "./assets/tech_logo/figma.png";
+import flaskLogo from "./assets/tech_logo/flask.png";
+import gitLogo from "./assets/tech_logo/git.png";
+import githubLogo from "./assets/tech_logo/github.png";
+import postgreLogo from "./assets/tech_logo/postgre.png";
+import postmanLogo from "./assets/tech_logo/postman.png";
 import pycharmLogo from "./assets/tech_logo/pycharm.png";
 import pythonLogo from "./assets/tech_logo/python.png";
 import redisLogo from "./assets/tech_logo/redis.png";
-import gitLogo from "./assets/tech_logo/git.png";
-import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
-import postmanLogo from "./assets/tech_logo/postman.png";
-import celeryLogo from "./assets/tech_logo/celery.png";
-import figmaLogo from "./assets/tech_logo/figma.png";
-import fastapiLogo from "./assets/tech_logo/fastapi.png";
-import djangoLogo from "./assets/tech_logo/django.png";
-import postgreLogo from "./assets/tech_logo/postgre.png";
-import flaskLogo from "./assets/tech_logo/flask.png";
 
 // Experience Section Logo's
 import MinebeaLogo from "./assets/company_logo/Minebea.png";
@@ -30,12 +30,11 @@ import srmLogo from "./assets/education_logo/SRMASC-Logo.jpg";
 import ajLogo from "./assets/education_logo/anjac-logo.png";
 
 // Project Section Logo's
-import fastapisLogo from "./assets/work_logo/fast_api.png";
-import oldportLogo from "./assets/work_logo/old_port.png";
-import vlLogo from "./assets/work_logo/virtual_learning.png";
 import carbonLogo from "./assets/work_logo/carbon_emission.png";
-import dsaLogo from "./assets/work_logo/python_dsa.png";
 import littlelemonLogo from "./assets/work_logo/little_lemon.png";
+import oldportLogo from "./assets/work_logo/old_port.png";
+import dsaLogo from "./assets/work_logo/python_dsa.png";
+import vlLogo from "./assets/work_logo/virtual_learning.png";
 
 
 export const SkillsInfo = [
@@ -149,7 +148,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 1,
+    id: 0,
     title: "Little Lemon API",
     description:
       "As part of the Coursera Django API course, I developed a RESTful API for a restaurant app called Little Lemon. The project focused on implementing role-based authentication and user permissions, allowing for secure access control between customers, managers, and delivery crew. Users can browse the menu, place orders, and track them based on their role.",
@@ -170,7 +169,7 @@ export const projects = [
     webapp: "https://littlelemon-2xet.onrender.com/",
   },
   {
-    id: 2,
+    id: 1,
     title: "Python DSA Notes",
     description:
       "Python DSA & Notes – A personal repository where I’m practicing Data Structures and Algorithms using Python. This space includes my solutions to LeetCode problems, Python programming exercises, and tasks focused on interview prep. I’m also jotting down quick notes and exploring some advanced Python concepts along the way. Still a work in progress.",
@@ -181,7 +180,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: "Old Portfolio",
     description:
       "Old Portfolio – A simple personal portfolio website I created using HTML, CSS, and JavaScript. It features a responsive layout using media queries and includes a basic dark mode toggle for better user experience. This was one of my early projects while learning front-end development.",
@@ -192,7 +191,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Linear Approximation Computational Complexity With Multivariant Correlation",
     description:
       "Linear Approximation Computational Complexity With Multivariant Correlation – A personal project focused on estimating carbon emissions for homes and industries using simplified linear models and multivariable correlation techniques. This tool is being built to analyze inputs like energy consumption, fuel sources, and usage patterns to predict emissions efficiently. Currently evolving as I explore ways to balance accuracy with computational efficiency for real-world sustainability applications",
@@ -202,7 +201,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 5,
+    id: 4,
     title: "Virtual Learning Platform for Visually Impaired Student",
     description:
       "Virtual Learning Platform for Visually Impaired Student – A personal initiative aimed at building an accessible virtual learning environment tailored for visually impaired students. This platform focuses on integrating audio-based navigation, screen reader support, and inclusive content delivery to enhance independent learning. Still in progress as I experiment with tools and technologies to improve usability and accessibility in digital education",
