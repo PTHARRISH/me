@@ -148,17 +148,17 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 0,
-    title: "Fast API Tutorials",
-    description:
-      "Learning FastAPI – A personal repository where I’m currently learning and experimenting with FastAPI. This space will gradually include hands-on examples, practice code, and notes as I build up my understanding of creating high-performance APIs using Python and FastAPI. Still in early progress",
-    image: fastapisLogo,
-    tags: ["Fast API", "Python", "Web API", "Learning", "Backend Development"],
-    github:
-      "https://github.com/PTHARRISH/Fastapi",
-    webapp: "",
-  },
+  // {
+  //   id: 0,
+  //   title: "Fast API Tutorials",
+  //   description:
+  //     "Learning FastAPI – A personal repository where I’m currently learning and experimenting with FastAPI. This space will gradually include hands-on examples, practice code, and notes as I build up my understanding of creating high-performance APIs using Python and FastAPI. Still in early progress",
+  //   image: fastapisLogo,
+  //   tags: ["Fast API", "Python", "Web API", "Learning", "Backend Development"],
+  //   github:
+  //     "https://github.com/PTHARRISH/Fastapi",
+  //   webapp: "",
+  // },
   {
     id: 1,
     title: "Little Lemon API",
