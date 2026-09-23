@@ -25,7 +25,7 @@ const About = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={["Python Developer", "Django Web Developer", "Backend Developer"]}
+              text={["Python Developer", "Django Web Developer", "Backend Developer", "GenAI Engineer", "GenAI Learner"]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
@@ -37,11 +37,12 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a Python Developer with a passion for building efficient and
-            scalable backend solutions using Django. I specialize in API
-            development, database optimization, and creating seamless user
-            authentication systems. My focus is on writing clean and
-            maintainable code to deliver high-performance applications.
+            I am a Python Developer and GenAI Engineer passionate about
+            building efficient, scalable backend solutions and intelligent AI
+            applications. I specialize in Django, API development, database
+            optimization, user authentication, AI agents, and RAG solutions.
+            I focus on writing clean, maintainable code while continuously
+            learning and exploring the latest advancements in Generative AI.
           </p>
           {/* Resume Button */}
           <a

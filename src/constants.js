@@ -24,6 +24,7 @@ import vscodeLogo from "./assets/tech_logo/vscode.png";
 
 // Experience Section Logo's
 import MinebeaLogo from "./assets/company_logo/Minebea.png";
+import hclLogo from "./assets/company_logo/hcllogo.jpg";
 
 // Education Section Logo's
 import srmLogo from "./assets/education_logo/SRMASC-Logo.jpg";
@@ -100,6 +101,25 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
+    img: hclLogo,
+    role: "Software Engineer",
+    company: "HCL Technologies, Chennai",
+    date: "January 2026 - Present",
+    desc: "Working as a Generative AI Engineer, developing AI agents with FastAPI, React JS, and AWS Bedrock LLMs. Currently building agents with Copilot Studio and Power Platform tools, and developing a Retrieval-Augmented Generation (RAG) solution using Azure AI Search.",
+    skills: [
+      "Generative AI",
+      "AI Agents",
+      "FastAPI",
+      "React JS",
+      "AWS Bedrock",
+      "Copilot Studio",
+      "Power Platform",
+      "Azure AI Search",
+      "RAG",
+    ],
+  },
+  {
+    id: 1,
     img: MinebeaLogo,
     role: "I Software Design Junior Engineer",
     company: "Minebea Intec India Pvt Ltd",
